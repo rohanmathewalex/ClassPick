@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Rate My Professor Support Agent
 
-First, run the development server:
+🚀 **My 4th AI Project - Rate My Professor Support Agent**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Rate My Professor Support Agent is an AI-powered application designed to help students find the right professors based on their specific needs and preferences. By combining state-of-the-art AI techniques, this project offers personalized professor recommendations, sentiment analysis, and real-time data retrieval. It’s a step forward in educational technology, empowering students to make informed decisions.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Frontend:** Next.js, React, Material-UI
+- **Backend:** Node.js, Express.js
+- **AI Integration:** OpenAI GPT-4, Pinecone Vector Database
+- **Data Retrieval:** Automated web scraping of Rate My Professor profiles
+- **Hosting:** Vercel for frontend, AWS for backend infrastructure
 
-## Learn More
+## 💡 Features
 
-To learn more about Next.js, take a look at the following resources:
+- **AI-Powered Recommendations:** Personalized professor recommendations using a Retrieval-Augmented Generation (RAG) system.
+- **Sentiment Analysis & Trend Tracking:** Analyzes reviews and trends over time, offering insight into shifts in professor ratings and sentiments.
+- **Automated Data Scraping:** Scrapes professor profiles from Rate My Professor and updates the vector database automatically.
+- **Advanced Search:** Tailored professor recommendations based on specific input criteria like subject, university, and rating.
+- **Dynamic Responses:** Real-time answers to user queries with follow-up question refinement.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Future Roadmap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Premium Features:** User authentication, extended features with premium plans, and custom dashboards for tracking professor performance.
+- **Waitlist and Launch:** Planning to launch as a SaaS with a waitlist, allowing early adopters to gain access to advanced features.
 
-## Deploy on Vercel
+## 🚀 Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Prerequisites
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Node.js (v14+)
+2. NPM or Yarn
+3. OpenAI and Pinecone API keys
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/rate-my-professor-support-agent.git
+    cd rate-my-professor-support-agent
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Create a `.env.local` file with the following variables:
+    ```bash
+    OPENAI_API_KEY=your_openai_api_key
+    PINECONE_API_KEY=your_pinecone_api_key
+    ```
+
+4. Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+5. Open `http://localhost:3000` in your browser to see the app in action.
+
+## 👏 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+Special thanks to OpenAI and Pinecone for providing the APIs that made this project possible.
+
+---
+
+Made with ❤️ by Rohan Mathew Alex
