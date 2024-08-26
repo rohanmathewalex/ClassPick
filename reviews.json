@@ -1,0 +1,298 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. Sarah Johnson",
+        "subject": "Computer Science",
+        "stars": 4,
+        "review": "Dr. Johnson's lectures are engaging and she explains complex concepts clearly. Assignments can be challenging but rewarding."
+      },
+      {
+        "professor": "Prof. Michael Chen",
+        "subject": "Physics",
+        "stars": 5,
+        "review": "Brilliant professor! Makes quantum mechanics understandable and exciting. His passion for the subject is contagious."
+      },
+      {
+        "professor": "Dr. Emily Rodriguez",
+        "subject": "Psychology",
+        "stars": 3,
+        "review": "Interesting course material, but lectures can be disorganized. Office hours are helpful for clarification."
+      },
+      {
+        "professor": "Prof. David Kim",
+        "subject": "Economics",
+        "stars": 4,
+        "review": "Prof. Kim brings real-world examples into his lectures, making macroeconomics relatable. Fair grader and approachable."
+      },
+      {
+        "professor": "Dr. Lisa Patel",
+        "subject": "Biology",
+        "stars": 5,
+        "review": "Dr. Patel's enthusiasm for molecular biology is infectious. Lab sessions are well-structured and informative."
+      },
+      {
+        "professor": "Prof. Thomas Brown",
+        "subject": "History",
+        "stars": 2,
+        "review": "Monotonous lectures and heavy reading load. Grading seems arbitrary at times."
+      },
+      {
+        "professor": "Dr. Jennifer Lee",
+        "subject": "Chemistry",
+        "stars": 4,
+        "review": "Challenging course, but Dr. Lee is always willing to help. Her demonstrations make organic chemistry more digestible."
+      },
+      {
+        "professor": "Prof. Robert Wilson",
+        "subject": "Mathematics",
+        "stars": 3,
+        "review": "Knowledgeable professor, but can move through material too quickly. Extra practice problems are helpful."
+      },
+      {
+        "professor": "Dr. Maria Garcia",
+        "subject": "Sociology",
+        "stars": 5,
+        "review": "Dr. Garcia's classes are thought-provoking and encourage critical thinking. Group discussions are particularly enlightening."
+      },
+      {
+        "professor": "Prof. James Taylor",
+        "subject": "English Literature",
+        "stars": 4,
+        "review": "Prof. Taylor's passion for Shakespeare is evident. Essay feedback is detailed and constructive."
+      },
+      {
+        "professor": "Dr. Olivia Wright",
+        "subject": "Environmental Science",
+        "stars": 5,
+        "review": "Inspiring lecturer who brings current environmental issues into focus. Field trips are a highlight of the course."
+      },
+      {
+        "professor": "Prof. Daniel Martinez",
+        "subject": "Political Science",
+        "stars": 3,
+        "review": "Informative lectures, but can be biased at times. Encourages debate and discussion in class."
+      },
+      {
+        "professor": "Dr. Rachel Cohen",
+        "subject": "Art History",
+        "stars": 4,
+        "review": "Dr. Cohen's visual presentations are excellent. Her insights make art history come alive."
+      },
+      {
+        "professor": "Prof. Kevin O'Brien",
+        "subject": "Marketing",
+        "stars": 2,
+        "review": "Relies too heavily on the textbook. Group projects are poorly organized."
+      },
+      {
+        "professor": "Dr. Sophia Nguyen",
+        "subject": "Neuroscience",
+        "stars": 5,
+        "review": "Dr. Nguyen is at the forefront of her field. Lectures are challenging but incredibly rewarding."
+      },
+      {
+        "professor": "Prof. William Adams",
+        "subject": "Philosophy",
+        "stars": 4,
+        "review": "Thought-provoking seminars that challenge your beliefs. Prof. Adams is a master at facilitating discussions."
+      },
+      {
+        "professor": "Dr. Emma Thompson",
+        "subject": "Geology",
+        "stars": 3,
+        "review": "Interesting subject matter, but lectures can be dry. Lab work and field trips make up for it."
+      },
+      {
+        "professor": "Prof. Alexander Ivanov",
+        "subject": "Computer Engineering",
+        "stars": 5,
+        "review": "Brilliant mind and excellent teacher. Makes complex topics in hardware design understandable."
+      },
+      {
+        "professor": "Dr. Samantha Lee",
+        "subject": "Psychology",
+        "stars": 4,
+        "review": "Dr. Lee's research-focused approach is refreshing. Assignments encourage critical thinking and analysis."
+      },
+      {
+        "professor": "Prof. Christopher Davis",
+        "subject": "Finance",
+        "stars": 3,
+        "review": "Knowledgeable about the subject, but can be intimidating. Office hours are more helpful than lectures."
+      },
+      {
+        "professor": "Dr. Nicole Carter",
+        "subject": "Anthropology",
+        "stars": 5,
+        "review": "Dr. Carter's fieldwork experiences enrich her lectures. Passionate about cultural understanding."
+      },
+      {
+        "professor": "Prof. Andrew Miller",
+        "subject": "Statistics",
+        "stars": 4,
+        "review": "Clear explanations of complex statistical concepts. Homework is challenging but prepares you well for exams."
+      },
+      {
+        "professor": "Dr. Laura Simmons",
+        "subject": "Linguistics",
+        "stars": 3,
+        "review": "Interesting subject matter, but course structure could be improved. Dr. Simmons is helpful during office hours."
+      },
+      {
+        "professor": "Prof. Ryan Parker",
+        "subject": "Music Theory",
+        "stars": 5,
+        "review": "Prof. Parker's enthusiasm is contagious. His approach makes complex theory accessible and enjoyable."
+      },
+      {
+        "professor": "Dr. Jessica Wong",
+        "subject": "Biochemistry",
+        "stars": 4,
+        "review": "Challenging course, but Dr. Wong's clear explanations and patience make it manageable. Great lab instructor."
+      },
+      {
+        "professor": "Prof. Eric Johnson",
+        "subject": "Mechanical Engineering",
+        "stars": 2,
+        "review": "Disorganized lectures and unclear expectations. Textbook is more helpful than class time."
+      },
+      {
+        "professor": "Dr. Michelle Rodriguez",
+        "subject": "Spanish Literature",
+        "stars": 5,
+        "review": "Dr. Rodriguez's passion for Latin American literature is inspiring. Discussions are lively and thought-provoking."
+      },
+      {
+        "professor": "Prof. Jonathan Green",
+        "subject": "Architecture",
+        "stars": 4,
+        "review": "Prof. Green brings real-world experience to the classroom. Design critiques are tough but fair."
+      },
+      {
+        "professor": "Dr. Stephanie Clark",
+        "subject": "Microbiology",
+        "stars": 3,
+        "review": "Knowledgeable professor, but lectures can be dense. Lab work is engaging and well-structured."
+      },
+      {
+        "professor": "Prof. Benjamin Lee",
+        "subject": "International Relations",
+        "stars": 5,
+        "review": "Prof. Lee's global perspective and experience in diplomacy make for fascinating lectures. Encourages critical thinking."
+      },
+      {
+        "professor": "Dr. Amanda White",
+        "subject": "Psychology",
+        "stars": 4,
+        "review": "Dr. White's research-oriented approach is refreshing. Assignments are challenging but promote deep understanding."
+      },
+      {
+        "professor": "Prof. Gregory Martinez",
+        "subject": "Civil Engineering",
+        "stars": 3,
+        "review": "Solid grasp of the subject, but can be inflexible with deadlines. Projects are practical and relevant."
+      },
+      {
+        "professor": "Dr. Karen Thompson",
+        "subject": "Public Health",
+        "stars": 5,
+        "review": "Dr. Thompson brings current health issues into focus. Guest speakers add valuable real-world perspectives."
+      },
+      {
+        "professor": "Prof. Steven Brown",
+        "subject": "Film Studies",
+        "stars": 4,
+        "review": "Prof. Brown's analysis of classic and contemporary films is insightful. Encourages creative thinking in assignments."
+      },
+      {
+        "professor": "Dr. Melissa Chen",
+        "subject": "Genetics",
+        "stars": 3,
+        "review": "Complex subject matter, but Dr. Chen is patient with questions. More practice problems would be helpful."
+      },
+      {
+        "professor": "Prof. Anthony Davis",
+        "subject": "Business Ethics",
+        "stars": 5,
+        "review": "Prof. Davis brings ethical dilemmas to life with case studies. Discussions are engaging and thought-provoking."
+      },
+      {
+        "professor": "Dr. Rachel Kim",
+        "subject": "Organic Chemistry",
+        "stars": 4,
+        "review": "Dr. Kim's step-by-step approach to problem-solving is very helpful. Challenging course but great preparation for further studies."
+      },
+      {
+        "professor": "Prof. Mark Wilson",
+        "subject": "World History",
+        "stars": 2,
+        "review": "Lectures are dry and mostly recitation of dates. Exams focus too much on memorization rather than understanding."
+      },
+      {
+        "professor": "Dr. Sarah Ahmed",
+        "subject": "Women's Studies",
+        "stars": 5,
+        "review": "Dr. Ahmed's courses are eye-opening and promote critical thinking about gender issues. Discussions are lively and inclusive."
+      },
+      {
+        "professor": "Prof. David Cohen",
+        "subject": "Criminal Justice",
+        "stars": 4,
+        "review": "Prof. Cohen's experience in law enforcement adds valuable context to lectures. Case studies are particularly insightful."
+      },
+      {
+        "professor": "Dr. Elizabeth Taylor",
+        "subject": "Astronomy",
+        "stars": 3,
+        "review": "Dr. Taylor is clearly knowledgeable, but sometimes struggles to explain complex concepts. Night sky observations are a highlight."
+      },
+      {
+        "professor": "Prof. Richard Lee",
+        "subject": "Electrical Engineering",
+        "stars": 5,
+        "review": "Prof. Lee's hands-on approach to teaching circuit design is excellent. Lab sessions are well-organized and informative."
+      },
+      {
+        "professor": "Dr. Julia Martinez",
+        "subject": "Cognitive Science",
+        "stars": 4,
+        "review": "Dr. Martinez presents cutting-edge research in an accessible way. Assignments encourage creative problem-solving."
+      },
+      {
+        "professor": "Prof. Michael Wong",
+        "subject": "Urban Planning",
+        "stars": 3,
+        "review": "Interesting course content, but Prof. Wong can be disorganized. Group projects provide good practical experience."
+      },
+      {
+        "professor": "Dr. Angela Patel",
+        "subject": "Immunology",
+        "stars": 5,
+        "review": "Dr. Patel's enthusiasm for immunology is contagious. Makes a complex subject understandable and fascinating."
+      },
+      {
+        "professor": "Prof. Thomas Green",
+        "subject": "Environmental Law",
+        "stars": 4,
+        "review": "Prof. Green brings environmental cases to life. Challenging course that improves critical thinking and legal analysis skills."
+      },
+      {
+        "professor": "Dr. Laura Johnson",
+        "subject": "Developmental Psychology",
+        "stars": 3,
+        "review": "Dr. Johnson is knowledgeable but can be unapproachable. Course content is interesting but presentation could be improved."
+      },
+      {
+        "professor": "Prof. Robert Chen",
+        "subject": "Quantum Physics",
+        "stars": 5,
+        "review": "Prof. Chen makes quantum mechanics almost intuitive. His problem-solving approach is incredibly helpful."
+      },
+      {
+        "professor": "Dr. Samantha Brown",
+        "subject": "Marine Biology",
+        "stars": 4,
+        "review": "Dr. Brown's passion for marine life is evident. Field trips to the coast are a highlight of the course."
+      }
+    ]
+  }
