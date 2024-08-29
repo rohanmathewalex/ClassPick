@@ -1,7 +1,7 @@
-'use client'
-import { Box, Stack } from "@mui/system";
+'use client';
+
+import { Box, Stack, Button, TextField, Container } from "@mui/material";
 import { useState } from "react";
-import { Button, TextField } from "@mui/material";
 
 export default function Home() {
   const [messages, setMessages] = useState([
@@ -47,66 +47,70 @@ export default function Home() {
   };
 
   return (
-    <Box
-      width="100vw"
-      height="100vh"
-      display="flex"
-      flexDirection="column"
-      justifyContent="center"
-      alignItems="center"
-    >
-      <Stack
-        direction="column"
-        width="500px"
-        height="700px"
-        border="1px solid black"
-        p={2}
-        spacing={3}
+    <Container maxWidth="sm">
+      <Box
+        display="flex"
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
       >
         <Stack
           direction="column"
-          spacing={2}
-          flexGrow={1}
-          overflow="auto"
-          maxHeight="100%"
+          width="100%"
+          border="1px solid #ccc"
+          borderRadius={4}
+          p={2}
+          spacing={3}
+          style={{ backgroundColor: '#f5f5f5' }}
         >
-          {messages.map((message, index) => (
-            <Box
-              key={index}
-              display="flex"
-              justifyContent={message.role === "assistant" ? "flex-start" : "flex-end"}
-            >
-              <Box
-                bgcolor={message.role === "assistant" ? "#e0e0e0" : "#1976d2"}  // Assistant's background light gray, User's background blue
-                color={message.role === "assistant" ? "black" : "white"}  // Assistant's text black, User's text white
-                borderRadius={16}
-                p={3}
-                maxWidth="75%"
-                style={{ whiteSpace: 'pre-wrap', color: message.role === 'assistant' ? 'black' : 'white' }} // Ensure text is visible and wraps correctly
-              >
-                {message.content}
-              </Box>
-            </Box>
-          ))}
-        </Stack>
-        <Stack
-          direction="row"
-          spacing={2}
-        >
-          <TextField
-            label="Message"
-            fullWidth
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-          />
-          <Button
-            variant="contained"
-            onClick={sendMessage}
+          <Stack
+            direction="column"
+            spacing={2}
+            flexGrow={1}
+            overflow="auto"
+            maxHeight="500px"
+            style={{ padding: '10px', backgroundColor: '#ffffff', borderRadius: '4px' }}
           >
-            Send
-          </Button>
+            {messages.map((message, index) => (
+              <Box
+                key={index}
+                display="flex"
+                justifyContent={message.role === "assistant" ? "flex-start" : "flex-end"}
+              >
+                <Box
+                  bgcolor={message.role === "assistant" ? "#e0e0e0" : "#1976d2"}
+                  color={message.role === "assistant" ? "black" : "white"}
+                  borderRadius={16}
+                  p={2}
+                  maxWidth="75%"
+                  style={{ whiteSpace: 'pre-wrap' }}
+                >
+                  {message.content}
+                </Box>
+              </Box>
+            ))}
+          </Stack>
+          <Stack
+            direction="row"
+            spacing={2}
+          >
+            <TextField
+              label="Type your message"
+              variant="outlined"
+              fullWidth
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+            />
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={sendMessage}
+            >
+              Send
+            </Button>
+          </Stack>
         </Stack>
-      </Stack>
-    </Box>
+      </Box>
+    </Container>
   );
 }
